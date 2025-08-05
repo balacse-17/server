@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 100px;
+        padding-left: 450px;
+        font-size: large;
+    }
+    label{
+        display: block;
+        margin: 5px;
+    }
+    article{
+        border: 1px solid black;
+        width: 180px;
+        padding: 60px;
+        border-radius: 10px;
+        background-color: beige;
+    }
+    p{
+        font-size: larger;
+    }
+    input{
+        background-color: white;
+        border: 1px solid black;
+        width: 190px;
+    }
+    button{
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 195px;
+        background-color: bisque;
+    }
+</style>
+<body>
+    <article>
+    <p>Sign up Form</p>
+    <form action="">
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass"required>
+        </div>
+        <div>
+            <label for="cpass">Confirm Password</label>
+            <input type="password" id="cpass"required>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    </article>
+</body>
+</html>
