@@ -28,10 +28,13 @@ body{
         border: 1px solid black;
         width: 190px;
     }
-    button{
+    .ironMan{
         margin-top: 20px;
         border-radius: 5px;
         width: 195px;
         background-color: bisque;
         padding:5px;
+    }
+    .batMan{
+        background-color: blue;
     }
